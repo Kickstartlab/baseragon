@@ -73,7 +73,7 @@ export default function Home() {
                                     </button>
                                 </a>
 
-                                <a href="/">
+                                <a href="https://docs.baseragon.com/">
                                     <button className="rounded-xl font-medium border-2 border-blue-100 hover:bg-blue-100 py-3 md:px-8 px-3 lg:w-44">
                                         Whitepaper
                                     </button>
