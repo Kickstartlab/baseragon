@@ -1,0 +1,63 @@
+html {
+  scroll-behavior: smooth
+}
+
+.bg-gradient {
+  background: linear-gradient(177.7deg, #1E1E1E 7.19%, #13316B 32.6%, #3183FF 82.91%, #FFFFFF 108.83%);
+}
+
+.text-gradient {
+  background: linear-gradient(91.08deg, #0354FF 20.79%, #80A9FF 53.97%, #F9FBFF 84.94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.rotate {
+  animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.line {
+  background: #9BB9FF;
+  animation: line 5s infinite linear;
+}
+
+@keyframes line {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-float {
+  transform: translatey(0px);
+  animation: float 2.3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 25px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
+}
